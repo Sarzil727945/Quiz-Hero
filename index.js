@@ -1,3 +1,9 @@
+// button blog part 
+document.getElementById('btn-blog').addEventListener('click', function(){
+  window.location.href = "blog.html";
+})
+// button blog part
+
 // global variable declaration
 let count = 0;
 let timer;
