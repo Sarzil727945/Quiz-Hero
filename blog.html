@@ -55,7 +55,7 @@
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
+          The Event Loop has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
         </div>
       </div>
     </div>
@@ -67,7 +67,10 @@
       </h2>
       <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong> A function that can call itself return itself</strong> and that function can also be called from outside is called a call back function.
+          <strong>quizTimer function: </strong>
+          When we go to give the answers of the quiz, it will take more than 60 seconds to give the answer of the quiz.  It will be converted to minutes.  After one minute the color will be red-300 for even numbered time, and color will be red-700 for odd numbered time. <br>
+          <strong>chooseQuiz function: </strong>
+          The work of chooseQuiz function is that we can select only one answer in the answer field of the quiz.  Multiple answers cannot be scored simultaneously.  After selecting an answer, if you want to select another answer for that quiz, then the previous answer will be removed.  And here the quizzes are serialized by ID.
         </div>
       </div>
     </div>
